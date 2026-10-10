@@ -1,24 +1,26 @@
-/* Program (2) -> Writw a program to make use pf basic Input/output functions using different data types.
-    Solution(2) -> User Define Values */
+/*
+Program (8) -> Write a C program to swap two numbers  using a temporary variable.
+Solution(1) -> User Define Values
+*/
 
 #include <stdio.h>
 int main()
-{
-    int rollnum;
-    float per;
-    char grade;
+{ 
+    int a, b, temp;
 
-    printf("\n Enter Roll Number: ");
-    scanf("%d" , &rollnum);
-    printf("\n Enter Percentage: ");
-    scanf("%f" , &per);
-    printf("\n Enter Grade: ");
-    scanf(" %c" , &grade);
-    
-    printf("\n----- Student Information -----|n");
-    printf("\n Rollnumber is: %d" , rollnum);
-    printf("\n Percentage is: %f" , per);
-    printf("\n Grade        : %c" , grade);
+    printf("\n Enter first number: ");
+    scanf("%d", &a);
+
+    printf("\n Enter second number: ");
+    scanf("%d", &b);
+
+    temp = a;
+    a = b;
+    b = temp;
+
+    printf("\n After swapping: ");
+    printf("\n First Number = %d \n", a);
+    printf("\n Second Number = %d \n", b);
 
     return 0;
 }
