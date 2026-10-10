@@ -1,23 +1,18 @@
 /*
-Program (1) -> Write a program to make use of basic Input?Output function using different data types.
-solution(1) -> Predefined Values
+Program (5) -> Write a program to calculate the average pf three numbers.
+Solution(1) -> Predefined Values 
 */
-#include <stdio.h>
 
+#include <stdio.h>
 int main()
 {
-    int rollnum;
-    float per;
-    char grade;
+    int a = 33;
+    int b = 47;
+    int c = 20;
+    float average;
 
-    rollnum = 55;
-    per = 88.88;
-    grade = 'A';
+    average = (a + b + c) / 3;
+    printf("\n Average  = %f" , average);
 
-    printf("------- Student Information -------\n");
-    printf("\nRoll Number : %d", rollnum);
-    printf("\nPercentage  : %f", per);
-    printf("\nGrade       : %c", grade);
-
-    return 0;
+    return 0;   
 }
