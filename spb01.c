@@ -1,5 +1,5 @@
 /*
-Program (5) -> Write a program to calculate the average pf three numbers.
+Program (01) -> Write a program to calculate the average pf three numbers.
 Solution(1) -> Predefined Values 
 */
 
